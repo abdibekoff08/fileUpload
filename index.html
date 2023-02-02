@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>File Upload</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <form id="form" class="uploadForm">
+          <input type="file" id="file" class="input_file" multiple>
+          <label for="file" class="input_file-button">
+              <span class="input_file-icon-wrapper"><img class="input_file-icon" src="free-icon-download.png" alt="Выбрать файл" width="25"></span>
+              <span class="input_file-button-text">Выберите файл</span>
+          </label>
+          <input type="text" id="comments" placeholder="КОММЕНТАРИЙ ДЛЯ КОНСОЛЯ" class="descrFile"><br>
+          <button type="submit" class="btnFile">ЗАГРУЗИТЬ ИЗОБРАЖЕНИЕ</button>
+        </form>
+    </div>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
